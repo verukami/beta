@@ -153,7 +153,11 @@ nav a{
 
 
 /* Header */
-
+.hero-lead {
+  max-width: 938px;
+  padding: 368px 90px;
+  width: 100%;
+}
 
 /* End Header */
 
