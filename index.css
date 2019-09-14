@@ -127,7 +127,11 @@ h6 {
   width: 2100px;
   padding-left: 45px;
   align-items: center;
+  mix-blend-mode: difference;
+
 }
+
+
 
 .side-bar-right{
   z-index: 2;
@@ -136,6 +140,8 @@ h6 {
   height: 1024px;
   align-items: center;
   position: fixed;
+  mix-blend-mode: difference;
+
 }
 
 nav a{
