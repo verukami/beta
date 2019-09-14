@@ -106,7 +106,7 @@ h6 {
   font-family: 'Quattrocento Sans', sans-serif;
 }
 
-/* Font Style */
+/* End Font Style */
 
 /* Menu */
 .top-bar {
@@ -130,5 +130,45 @@ h6 {
   position: fixed;
 }
 
+nav a{
+  color: white;
+  text-decoration: none;
+  font-family: 'Muli', sans-serif;
+  font-size: 2.4rem;
+}
 
-/* Menu */
+.top-bar a {
+  padding: 10px 0;
+  margin-left: 50px;
+  letter-spacing: 0.5px;
+}
+
+.right-menu a {
+  padding: 20px 0;
+  margin-left: 50px;
+}
+
+
+/* End Menu */
+
+
+/* Header */
+
+
+/* End Header */
+
+
+/* About */
+
+
+/* End About */
+
+
+/* Work */
+
+
+/* End Work */
+
+/* Footer */
+
+/* End footer */
