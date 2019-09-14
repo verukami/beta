@@ -177,6 +177,15 @@ nav a{
   height: 100vh;
 }
 
+.hero-image {
+  background-image: url(img/Home/background1.png);
+  background-color: #1D1c30;
+  height: 1024px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:cover;
+}
+
 /* End Header */
 
 
