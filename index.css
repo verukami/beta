@@ -156,6 +156,19 @@ nav a{
   margin-left: 50px;
 }
 
+.side-bar-right {
+  margin: 90px auto;
+  
+  display: grid;
+  grid-template-rows: 60px auto 390px;
+
+}
+
+.right-menu{
+  grid-row: 2;
+  align-self: center;
+}
+
 
 
 /* End Menu */
