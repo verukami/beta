@@ -107,3 +107,28 @@ h6 {
 }
 
 /* Font Style */
+
+/* Menu */
+.top-bar {
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  display: flex;
+  height: 95px;
+  width: 2100px;
+  padding-right: 45px;
+  padding-left: 45px;
+  align-items: center;
+}
+
+.side-bar-right{
+  z-index: 2;
+  right: 0;
+  width: 90px;
+  height: 1024px;
+  align-items: center;
+  position: fixed;
+}
+
+
+/* Menu */
