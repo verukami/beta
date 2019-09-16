@@ -243,13 +243,16 @@ nav a{
 }
 
 .hero-image {
+  width: 100%;
+  height: auto;
   background-image: url(img/Home/background1.png);
   background-color: #1D1c30;
-  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: cover;
 }
+
+
 
 
 .hero-lead{
@@ -376,4 +379,10 @@ nav a{
     flex-wrap: wrap;
     flex-direction: column;
     padding: 10rem 4.5rem;
+  }
+}
+
+  .block-image, .block-meta {
+    width: 100%;
+    padding: 2rem 0;
   }
