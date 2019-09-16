@@ -149,7 +149,7 @@ nav a{
   color: white;
   text-decoration: none;
   font-family: 'Muli', sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
 }
 
 .top-bar a {
@@ -245,12 +245,17 @@ nav a{
 .hero-image {
   background-image: url(img/Home/background1.png);
   background-color: #1D1c30;
-  height: 1024px;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
 }
 
+
+.hero-lead{
+  -webkit-animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both;animation:fade-in 1.2s cubic-bezier(.39,.575,.565,1.000) both
+}
+@-webkit-keyframes fade-in{0%{opacity:0}100%{opacity:1}}@keyframes fade-in{0%{opacity:0}100%{opacity:1}}
 /* End Header */
 
 
@@ -327,6 +332,17 @@ nav a{
   text-decoration: none;
   color: #FE3ED4;
 }
+.end{
+  font-size: 1.5rem;
+}
+
+.credit {
+  color: #1D1C30;
+  letter-spacing: 0.05rem;
+  display: inline-block;
+  text-decoration: none;
+  
+}
 
 .footer-links {
   margin: 3rem 0 0 0;
@@ -347,5 +363,17 @@ nav a{
   align-items: center;
   justify-content: center;
 }
+
+.final-container{
+  position: relative;
+  text-align: center;
+  top: 25%; 
+}
 /* End footer */
 
+@media (max-width: 767px){
+  .block-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10rem 4.5rem;
+  }
