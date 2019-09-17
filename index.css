@@ -228,7 +228,6 @@ nav a{
 
 /* Header */
 .hero-lead {
-  max-width: 938px;
   padding: 368px 90px;
   width: 100%;
 }
@@ -267,7 +266,6 @@ nav a{
 .block-content {
   display: flex;
   flex-direction: row;
-  max-width: 1800px;
   width: 100%;
   padding: 20rem 9.0rem;
   align-items: center;
@@ -385,4 +383,8 @@ nav a{
   .block-image, .block-meta {
     width: 100%;
     padding: 2rem 0;
+  }
+
+  .block-hero-wrapper {
+    padding:0;
   }
