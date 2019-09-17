@@ -243,6 +243,7 @@ nav a{
 
 .hero-image {
   width: 100%;
+  max-width: 2200px;
   height: auto;
   background-image: url(img/Home/background1.png);
   background-color: #1D1c30;
@@ -283,7 +284,10 @@ nav a{
 
 
 /* Work */
-
+.Title{
+  line-height: 10rem;
+  margin: 4rem 0;
+}
 
 /* End Work */
 
@@ -313,7 +317,7 @@ nav a{
   font-style: normal;
   font-weight: 300;
   line-height: 3rem;
-  font-size: 3.6rem;
+  font-size: 3.0rem;
   text-align: center;
   letter-spacing: 0.05em;
   text-decoration: none;
@@ -326,7 +330,7 @@ nav a{
   font-style: normal;
   font-weight: 300;
   line-height: 3rem;
-  font-size: 3.6rem;
+  font-size: 3.0rem;
   text-align: center;
   letter-spacing: 0.05rem;
   display: inline-block;
@@ -378,13 +382,27 @@ nav a{
     flex-direction: column;
     padding: 10rem 4.5rem;
   }
-}
+
+  .block-float-title {
+    top: 7.5rem;
+    left: 4.5rem;
+  }
 
   .block-image, .block-meta {
     width: 100%;
-    padding: 2rem 0;
+    padding: 6rem 0 3rem 0;
+  }
+  
+  .hero-title {
+    font-size: 7.2rem;
+    margin: 0rem 0 5rem 0;
+  }
+  .block-hero-wrapper {
+    padding: 0;
   }
 
-  .block-hero-wrapper {
-    padding:0;
+  .lead {
+    font-size: 2.8rem;
+    line-height: 1.5;
   }
+}
