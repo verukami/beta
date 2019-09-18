@@ -152,7 +152,7 @@ nav a{
   font-size: 1.8rem;
 }
 
-.top-bar a {
+.top-menu a {
   padding: 10px 0;
   margin-left: 50px;
   letter-spacing: 0.5px;
@@ -404,5 +404,9 @@ nav a{
   .lead {
     font-size: 2.8rem;
     line-height: 1.5;
+
   }
 }
+
+
+
