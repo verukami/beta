@@ -248,7 +248,7 @@ nav a{
 
 .content-title{
   line-height: 12rem;
-  margin: 4rem 0 9rem;
+  margin: 4rem 0 6rem;
 }
 
 .text-content{
@@ -264,7 +264,12 @@ nav a{
     max-width: 1000px;
   }
   
-
+.block-image{
+  padding: 5rem 0 5rem 25rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
 
 /* End Style1 */
 
@@ -360,8 +365,20 @@ nav a{
     padding: 10rem 4.5rem;
   }
 
-  .block-float-title {
-    top: 7.5rem;
+  .block-style1 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10rem 4.5rem;
+  }
+
+  .block-style2 {
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 10rem 4.5rem;
+  }
+
+  .content-title .h4 {
+    top: 6.5rem;
     left: 4.5rem;
   }
 
