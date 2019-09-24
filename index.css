@@ -269,7 +269,9 @@ nav a{
   flex-direction: row;
   max-width: auto;
   width: 100%;
-  padding: 10rem 9.0rem 5rem;
+  height: 100%;
+
+  padding: 25rem 9.0rem 5rem;
   align-items: right;
   justify-content: left;
   margin: 0 auto;
@@ -285,6 +287,19 @@ nav a{
 
 
 /* Work */
+.block-section {
+  display: flex;
+  flex-direction: row;
+  max-width: auto;
+  width: 100%;
+  height: 100%;
+
+  padding: 5rem 9.0rem 5rem;
+  align-items: right;
+  justify-content: left;
+  margin: 0 auto;
+}
+
 .Title{
   line-height: 10rem;
   margin: 4rem 0;
@@ -397,7 +412,12 @@ nav a{
   .block-content {
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 6rem 4.5rem 2rem 4.5rem;
+    padding: 6rem 4.5rem 0rem 4.5rem;
+  }
+
+  .block-section {
+
+    padding: 4rem 4.5rem 4rem 4.5rem;
   }
 
   .left {
