@@ -267,9 +267,10 @@ nav a{
 .block-content {
   display: flex;
   flex-direction: row;
+  max-width: auto;
   width: 100%;
-  padding: 20rem 9.0rem;
-  align-items: center;
+  padding: 10rem 9.0rem 5rem;
+  align-items: right;
   justify-content: left;
   margin: 0 auto;
 }
@@ -292,6 +293,15 @@ nav a{
 .work-link{
   color: #ffffff;
   text-decoration: none;
+}
+
+.left{
+  display: flex;
+  flex-direction: row;
+  max-width: auto;
+  width: 100%;
+  padding: 0 0 15rem 80rem;
+  align-items: right;
 }
 
 
@@ -387,7 +397,12 @@ nav a{
   .block-content {
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 10rem 4.5rem;
+    padding: 6rem 4.5rem 2rem 4.5rem;
+  }
+
+  .left {
+    width: 100%;
+    padding: 6rem 0 3rem 0;
   }
 
   .block-float-title {
@@ -395,15 +410,20 @@ nav a{
     left: 4.5rem;
   }
 
-  .block-image, .block-meta {
+  .block-image{
     width: 100%;
     padding: 6rem 0 3rem 0;
   }
+
+  .block-meta{
+    padding: 12rem 0 0 0;
+  }
   
   .hero-title {
-    font-size: 7.2rem;
+    font-size: 6rem;
     margin: 0rem 0 5rem 0;
   }
+
   .block-hero-wrapper {
     padding: 0;
   }
