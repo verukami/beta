@@ -132,23 +132,15 @@ h6 {
 .hero-title{
   font-family: 'Muli', sans-serif;
   font-size: 14.4rem;
-  position: absolute;
+
   left: 12rem;
-  z-index: 1;
   font-weight: 500;
-  display: block;
-  background-size: cover;
+  letter-spacing: 0.1em;
 }
 
-.hero-lead{
-  max-width: auto;
-  padding: 0 15px;
-  width: 100%;
-}
-
-.lead{
-  line-height: 1.5;
-  left: 12rem;
+.subtitle {
+text-align: center;
+letter-spacing: 0.1rem;
 }
 
 .block--hero{
@@ -220,7 +212,7 @@ h6 {
 
 .column-title{
   font-weight: 800;
-  font-size: 2.4rem:
+  font-size: 2rem:
 }
 
 .column-content{
