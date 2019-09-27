@@ -1,0 +1,16 @@
+{
+  "name": "verukami-beta",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:verukami/beta.git",
+  "author": "Angel Baez <angel@uptrending.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html --public-url ./"
+  },
+  "dependencies": {
+    "aos": "^3.0.0-beta.6",
+    "parcel-bundler": "^1.12.3"
+  }
+}
