@@ -242,7 +242,7 @@ nav a{
   font-size: 14.4rem;
 
   font-weight: 500;
-  letter-spacing: 0.1em;
+  letter-spacing: 0em;
 }
 
 .subtitle {
@@ -261,7 +261,7 @@ letter-spacing: 0.1rem;
 }
 
 .block-hero-content {
-  background-color: #1D32C3;
+  background-color: #FF5148;
   width: 100%;
   height: 100%;
   text-align: left;
@@ -275,8 +275,8 @@ letter-spacing: 0.1rem;
 
 .hero-image{
   z-index: 2;
-  align-items: center;
-  justify-content: center;
+  align-items: left;
+  justify-content: left;
 }
 
 /* End Header */
@@ -338,7 +338,7 @@ letter-spacing: 0.1rem;
     padding: 10rem 90rem 10rem 14rem;
 
 
-    background-color: #1D32C3;
+    background-color: #FF5148;
   }
   
 
