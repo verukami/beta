@@ -288,7 +288,7 @@ letter-spacing: 0.1rem;
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 12rem 14rem 8rem 14rem;
+  padding: 12rem 18rem 8rem 14rem;
   align-items: center;
   justify-content: left;
   margin: 0 auto;
@@ -333,12 +333,16 @@ letter-spacing: 0.1rem;
 
 /* Style1 purple background*/
 .block-style1 {
-    width: 100%;
+    width: auto;
     height: 100%;
     padding: 10rem 90rem 10rem 14rem;
 
 
     background-color: #FF5148;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: left;
   }
   
 
