@@ -490,6 +490,8 @@ letter-spacing: 0.1rem;
 /* End footer */
 
 @media (max-width: 767px){
+
+
   .side-bar-right {
     display: none;
     }
@@ -534,7 +536,7 @@ letter-spacing: 0.1rem;
 }
 
   h4 {
-    font-size: 3.6rem;
+    font-size: 2.8rem;
     font-family: 'Cormorant', serif;;
   }
 
@@ -558,9 +560,11 @@ letter-spacing: 0.1rem;
   }
 
   .content-title {
-    font-size: 6rem;
-    line-height: 8rem;
+    font-size: 4rem;
+    line-height: 5.5rem;
     margin: 2rem 0 4rem;
+    font-weight: bold;
+
   }
 
   .block-image, .block-meta {
