@@ -159,7 +159,7 @@ nav a{
 }
 
 .top-menu a {
-  padding: 10px 0;
+  padding: auto;
   margin-left: 50px;
   letter-spacing: 0.5px;
   cursor: pointer;
@@ -291,7 +291,7 @@ letter-spacing: 0.1rem;
   padding: 12rem 14rem 8rem 14rem;
   align-items: center;
   justify-content: left;
-  margin: 0 auto;
+  margin: 0 4rem;
 }
 
 .block-review {
@@ -460,11 +460,20 @@ letter-spacing: 0.1rem;
     display: none;
     }
   
-  .top-menu{
-    align-items: left;
-    justify-content: left;
-    margin: 0;
-  }
+  .top-bar {
+      position: fixed;
+        top: 0;
+        display: flex;
+        height: 80px;
+        width: 100%;
+        left: 0;
+        align-items: center;
+        mix-blend-mode: difference;
+        right: 0;
+        padding: 0 20px;
+        z-index: 999;
+    
+    }
 
   .block-content {
     flex-wrap: wrap;
