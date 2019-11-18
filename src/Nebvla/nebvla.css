@@ -485,7 +485,7 @@ letter-spacing: 0.1rem;
 .block-hero-content{
   display: flex;
   flex-direction: column;
-  padding: 4rem 4.5rem 0 4.5rem;
+  padding: 4.5rem;
 }
 
 .hero-title{
@@ -525,13 +525,13 @@ letter-spacing: 0.1rem;
   .block-style1 {
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 4rem 4.5rem 10rem;
+    padding: 4rem 3rem 4rem;
   }
 
   .block-style2 {
     flex-wrap: wrap;
     flex-direction: column;
-    padding: 4rem 4.5rem 10rem;
+    padding: 4rem 3rem 4rem;
   }
 
   .content-title {
