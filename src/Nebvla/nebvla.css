@@ -499,8 +499,10 @@ letter-spacing: 0.1rem;
   margin: 0 auto;
 }
 
+
+
   h4 {
-    font-size: 3.6rem;
+    font-size: 3rem;
     font-family: 'Cormorant', serif;;
   }
 
@@ -524,9 +526,9 @@ letter-spacing: 0.1rem;
   }
 
   .content-title {
-    font-size: 6rem;
-    line-height: 8rem;
-    margin: 2rem 0 4rem;
+    font-size: 3rem;
+    line-height: 4rem;
+    margin: 2rem 0 2rem;
   }
 
   .block-image, .block-meta {
