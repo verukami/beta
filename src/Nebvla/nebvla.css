@@ -361,21 +361,14 @@ letter-spacing: 0.1rem;
     max-width: 1000px;
   }
   
-.block-image{
-  padding: 5rem 0 5rem 25rem;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-  width: 100%;
-  min-height: 100vh;
-}
+
 
 /* End Style2 */
 
 
 .block-image{
   width: 100%;
-  width: 1200px;
+  width: auto;
   align-items: center;
   justify-content: center;
   margin: 15rem auto 0 0;
