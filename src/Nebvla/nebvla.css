@@ -367,8 +367,8 @@ letter-spacing: 0.1rem;
 
 
 .block-image{
-  width: 100%;
   width: auto;
+  height: auto;
   align-items: center;
   justify-content: center;
   margin: 15rem auto 0 0;
@@ -377,7 +377,7 @@ letter-spacing: 0.1rem;
 /* Footer */
 
 .hero-foot {
-  max-width: 938px;
+  max-width: 100%;
   padding: 0 15px;
   width: 100%;
 }
