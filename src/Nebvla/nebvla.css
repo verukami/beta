@@ -333,7 +333,7 @@ letter-spacing: 0.1rem;
 
 /* Style1 purple background*/
 .block-style1 {
-    width: 100%;
+    width: auto;
     height: 100%;
     padding: 10rem 90rem 10rem 14rem;
 
