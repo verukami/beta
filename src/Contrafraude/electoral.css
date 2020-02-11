@@ -95,7 +95,7 @@ h1 {
 
 h2 {
   font-size: 9.6rem;
-  font-family: 'Cormorant', serif;
+  font-family: 'Muli', sans-serif;
 }
 
 h3 {
@@ -105,8 +105,8 @@ h3 {
 }
 
 h4 {
-  font-size: 4.8rem;
-  font-family: 'Cormorant', serif;;
+  font-size: 4.4rem;
+  font-family: 'Muli', sans-serif;;
 }
 
 h5 {
@@ -117,7 +117,7 @@ h5 {
 
 h6 {
   font-size: 2.4rem;
-  font-family: 'Cormorant', serif;
+  font-family: 'Muli', sans-serif;
 }
 
 /* End Font Style */
@@ -247,7 +247,7 @@ nav a{
 }
 
 .subtitle {
-text-align: center;
+text-align: left;
 letter-spacing: 0.1rem;
 }
 
@@ -265,9 +265,8 @@ letter-spacing: 0.1rem;
   background-color: #006D98;
   width: 100%;
   height: 100%;
-  text-align: center;
+  text-align: left;
   color: white;
-  padding: 12rem 14rem 8rem 14rem;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -276,8 +275,8 @@ letter-spacing: 0.1rem;
 
 .hero-image{
   z-index: 2;
-  align-items: left;
-  justify-content: left;
+  align-items: center;
+  justify-content: center;
 }
 
 /* End Header */
@@ -289,15 +288,16 @@ letter-spacing: 0.1rem;
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 12rem 18rem 8rem 14rem;
+  padding: 12rem 20rem 8rem 20rem;
   align-items: center;
   justify-content: left;
   margin: 0 auto;
+  letter-spacing: 0.1rem;
 }
 
 .block-review {
   display: grid;
-  grid-template-columns: 13rem auto auto auto auto 15rem;
+  grid-template-columns: 18rem auto auto auto auto 18rem;
   grid-column-gap: 2.0rem;
 
   margin: 0 0 12rem 0;
@@ -334,9 +334,9 @@ letter-spacing: 0.1rem;
 
 /* Style1 purple background*/
 .block-style1 {
-    width: auto;
+    width: 100%;
     height: 100%;
-    padding: 10rem 90rem 10rem 14rem;
+    padding: 10rem 80rem 10rem 20rem;
 
 
     background-color: #006D98;
@@ -347,9 +347,10 @@ letter-spacing: 0.1rem;
   }
   
 
-.content-title{
+.content-title {
   line-height: 12rem;
-  margin: 4rem 0 6rem;
+  margin: 0 0 4rem;
+  letter-spacing: 0.2rem;
 }
 
 .block--intro{
@@ -362,19 +363,17 @@ letter-spacing: 0.1rem;
 /* Style2 no color background */
 .block-style2{
     width: auto;
-    padding: 10rem 14rem 10rem 14rem;
-    max-width: 1000px;
+    padding: 10rem 80rem 10rem 20rem;
+    width: 100%;
+    height: 100%;
   }
   
 .block-image{
   width: 100%;
   width: 1200px;
-  padding: 5rem 0 5rem 25rem;
   align-items: center;
   justify-content: center;
   margin: 0 auto;
-
-
 }
 
 /* End Style2 */
@@ -411,7 +410,7 @@ letter-spacing: 0.1rem;
   width: 1200px;
   align-items: center;
   justify-content: center;
-  margin: 15rem auto 0 0;
+  margin: 6rem auto;
 }
 
 /* Footer */
