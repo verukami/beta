@@ -75,42 +75,42 @@ body {
   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #f2f2f2;
-  color: #0a0a0a;
+  background: #0B0A13;
+  color: #ffffff;
 }
 
 p {
-  font-family: 'Lato', sans-serif;
-  line-height: 1.6;
+  font-family: 'Muli', sans-serif;
+  line-height: 1.8;
   letter-spacing: .04em;
 
 }
 
 h1 {
-  font-family: 'Lato', sans-serif;
-  font-size: 5.49rem;
+  font-family: 'Muli', sans-serif;
+  font-size: 9.6rem;
   font-weight: bold;
   line-height: 120%;
 }
 
 h2 {
-  font-size: 5rem;
+  font-size: 9.6rem;
   font-family: 'Cormorant', serif;
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
-  font-size: 4.8rem;
+  font-family: 'Muli', sans-serif;
+  font-size: 6.4rem;
   font-weight: bold;
 }
 
 h4 {
-  font-size: 4.0rem;
+  font-size: 4.8rem;
   font-family: 'Cormorant', serif;;
 }
 
 h5 {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Muli', sans-serif;
   font-size: 3.6rem;
   font-weight: 500;
 }
@@ -145,7 +145,7 @@ h6 {
   z-index: 2;
   right: 0;
   width: 90px;
-  height: auto;
+  height: 1024px;
   align-items: center;
   position: fixed;
 }
@@ -319,7 +319,7 @@ letter-spacing: 0.1rem;
 
 .column-title{
   font-weight: 800;
-  font-size: 2.2rem;
+  font-size: 2.2rem:
 }
 
 .column-content{
@@ -332,19 +332,18 @@ letter-spacing: 0.1rem;
 
 /* Style1 purple background*/
 .block-style1 {
-    width: auto;
+    width: 100%;
     height: 100%;
-    padding: 10rem 14rem 10rem 14rem;
+    padding: 10rem 90rem 10rem 14rem;
 
 
     background-color: #1D32C3;
-    color: #ffffff;
   }
   
 
 .content-title{
   line-height: 12rem;
-  margin: 0 0 2rem;
+  margin: 4rem 0 6rem;
 }
 
 .block--intro{
@@ -361,14 +360,20 @@ letter-spacing: 0.1rem;
     max-width: 1000px;
   }
   
+.block-image{
+  padding: 5rem 0 5rem 25rem;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
 
+}
 
 /* End Style2 */
 
 
 .block-image{
-  width: auto;
-  height: auto;
+  width: 100%;
+  width: 1200px;
   align-items: center;
   justify-content: center;
   margin: 15rem auto 0 0;
@@ -386,7 +391,6 @@ letter-spacing: 0.1rem;
 .block-hero-footer {
   background-color: #ffffff;
   width: 100%;
-  min-height: 100vh;
   height: 100%;
   text-align: center;
   color: #1D1C30;
