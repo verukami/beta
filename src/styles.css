@@ -357,6 +357,7 @@ nav a {
 
 .hero-image {
   height: 100%;
+  width: 100%;
   background-size: cover;
   background-image: url(img/Home/background1.png);
   background-color: #1d1c30;
@@ -436,15 +437,24 @@ nav a {
   justify-content: 0 0 14rem 0;
 }
 
+.block-image{
+  float: left;
+  width: 100%;
+  margin: 10px;
+}
+
+
 .block-image--left {
-  margin: 0 0 0 26rem;
   justify-content: left;
+  align-items: left;
+  margin: 0 0 0 20rem;
 }
 
 .block-image--right {
   align-items: right;
   justify-content: right;
-  margin: 0 0 0 100rem;
+  margin: 0 0 0 60rem;
+
 }
 
 .block-float-title,
