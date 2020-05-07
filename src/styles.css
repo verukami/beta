@@ -439,22 +439,22 @@ nav a {
 
 .block-image{
   float: left;
-  width: 100%;
-  margin: 10px;
+  margin: 0%;
 }
 
 
 .block-image--left {
   justify-content: left;
   align-items: left;
-  margin: 0 0 0 20rem;
+  margin: 0 0 0 40rem;
+  clear: left;
 }
 
 .block-image--right {
+  float: right;
   align-items: right;
   justify-content: right;
-  margin: 0 0 0 60rem;
-
+  margin: 0 20% 0 20%;
 }
 
 .block-float-title,
