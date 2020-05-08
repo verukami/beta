@@ -261,11 +261,11 @@ letter-spacing: 0.1rem;
 }
 
 .block-hero-content {
-  background-color: #00BB55;
+  background-color: #e0e0e0;
   width: 100%;
   height: 100%;
   text-align: left;
-  color: white;
+  color: #1D1C30;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -337,7 +337,7 @@ letter-spacing: 0.1rem;
     padding: 10rem 90rem 10rem 14rem;
 
 
-    background-color: #00BB55;
+    background-color: #e0e0e0;
   }
   
 

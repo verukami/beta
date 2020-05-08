@@ -439,14 +439,13 @@ nav a {
 
 .block-image{
   float: left;
-  margin: 0%;
 }
 
 
 .block-image--left {
   justify-content: center;
   align-items: left;
-  margin: 0 0 0 40rem;
+  margin: 0 0 0 60rem;
   clear: left;
 }
 
