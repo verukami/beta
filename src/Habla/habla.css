@@ -80,17 +80,15 @@ body {
 }
 
 p {
-  font-family: 'Muli', sans-serif;
-  font-size: 1.8rem;
+  font-family: 'Cormorant', serif;
+  font-size: 2.4rem;
   line-height: 1.6;
-  letter-spacing: .04em;
-
 }
 
 h1 {
-  font-family: 'Cormorant', serif;
-  font-size: 6rem;
-  line-height: 120%;
+  font-family: 'Muli', sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
 }
 
 h2 {
@@ -261,7 +259,7 @@ letter-spacing: 0.1rem;
 }
 
 .block-hero-content {
-  background-color: #e0e0e0;
+  background-color: #ffffff;
   width: 100%;
   height: 100%;
   text-align: left;
@@ -337,13 +335,13 @@ letter-spacing: 0.1rem;
     padding: 10rem 90rem 10rem 14rem;
 
 
-    background-color: #e0e0e0;
+    background-color: #ffffff;
   }
   
 
 .content-title{
   line-height: 12rem;
-  margin: 4rem 0 6rem;
+  margin: 2rem 0 0;
 }
 
 .block--intro{
@@ -351,6 +349,12 @@ letter-spacing: 0.1rem;
   flex-direction: row;
 }
 
+.block-images {
+  display: grid;
+  grid-template-columns: 10rem auto auto auto 10rem;
+  grid-column-gap: 10rem;
+  margin: 10rem 8rem 10rem 0;
+}
 /* End Style1 */
 
 /* Style2 no color background */
@@ -361,10 +365,8 @@ letter-spacing: 0.1rem;
   }
   
 .block-image{
-  padding: 5rem 0 5rem 25rem;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
+  margin-left: auto;
+  margin-right: auto;
 
 }
 
