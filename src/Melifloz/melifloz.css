@@ -75,22 +75,21 @@ body {
   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0B0A13;
+  background: #000;
   color: #ffffff;
 }
 
 p {
   font-family: 'Muli', sans-serif;
-  line-height: 1.8;
+  line-height: 1.6em;
   letter-spacing: .04em;
-
+  font-size: 2rem;
 }
 
 h1 {
   font-family: 'Muli', sans-serif;
-  font-size: 9.6rem;
+  font-size: 4rem;
   font-weight: bold;
-  line-height: 120%;
 }
 
 h2 {
@@ -261,7 +260,7 @@ letter-spacing: 0.1rem;
 }
 
 .block-hero-content {
-  background-color: #1D32C3;
+  background-color: #15181C;
   width: 100%;
   height: 100%;
   text-align: left;
@@ -337,13 +336,13 @@ letter-spacing: 0.1rem;
     padding: 10rem 90rem 10rem 14rem;
 
 
-    background-color: #1D32C3;
+    background-color: #15181C;
   }
   
 
 .content-title{
   line-height: 12rem;
-  margin: 4rem 0 6rem;
+  margin: 4rem 0 0;
 }
 
 .block--intro{
