@@ -81,21 +81,20 @@ body {
 
 p {
   font-family: 'Muli', sans-serif;
-  line-height: 1.8;
+  line-height: 1.6em;
   letter-spacing: .04em;
-
+  font-size: 2rem;
 }
 
 h1 {
   font-family: 'Muli', sans-serif;
-  font-size: 9.6rem;
+  font-size: 4rem;
   font-weight: bold;
-  line-height: 120%;
 }
 
 h2 {
   font-size: 9.6rem;
-  font-family: 'Muli', sans-serif;
+  font-family: 'Cormorant', serif;
 }
 
 h3 {
@@ -105,14 +104,19 @@ h3 {
 }
 
 h4 {
-  font-size: 4.4rem;
-  font-family: 'Muli', sans-serif;;
+  font-size: 4.8rem;
+  font-family: 'Cormorant', serif;
 }
 
 h5 {
   font-family: 'Muli', sans-serif;
   font-size: 3.6rem;
   font-weight: 500;
+}
+
+h6 {
+  font-size: 2.4rem;
+  font-family: 'Cormorant', serif;
 }
 
 h6 {
@@ -347,11 +351,10 @@ letter-spacing: 0.1rem;
   }
   
 
-.content-title {
-  line-height: 12rem;
-  margin: 0 0 4rem;
-  letter-spacing: 0.2rem;
-}
+  .content-title{
+    line-height: 12rem;
+    margin: 4rem 0 0;
+  }
 
 .block--intro{
   display: flex;
