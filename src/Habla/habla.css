@@ -80,9 +80,10 @@ body {
 }
 
 p {
-  font-family: 'Cormorant', serif;
-  font-size: 2.4rem;
-  line-height: 1.6;
+  font-family: 'Muli', sans-serif;
+  line-height: 1.6em;
+  letter-spacing: .04em;
+  font-size: 2rem;
 }
 
 h1 {
@@ -346,7 +347,7 @@ letter-spacing: 0.1rem;
 
 .content-title{
   line-height: 12rem;
-  margin: 2rem 0 0;
+  margin: 4rem 0 0;
 }
 
 .block--intro{
