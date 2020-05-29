@@ -68,7 +68,6 @@ h1 {
     font-size: 24rem;
     font-weight: bold;
     color: #fff;
-  }
 
   h5 {
     font-family: 'Muli', sans-serif;
@@ -76,3 +75,40 @@ h1 {
     font-weight: regular;
     color: #fff;
   }
+
+  /* Menu */
+.top-bar {
+    position: fixed;
+      top: 0;
+      display: flex;
+      height: 95px;
+      width: 100%;
+      left: 0;
+      align-items: center;
+      mix-blend-mode: difference;
+      right: 0;
+      padding: 0 50px;
+      z-index: 999;
+    }
+
+    nav a{
+        color: white;
+        text-decoration: none;
+        font-family: 'Muli', sans-serif;
+        font-size: 1.8rem;
+        
+      }
+      
+      .top-menu a {
+        padding: 10px 0;
+        margin-left: 50px;
+        letter-spacing: 0.5px;
+        cursor: pointer;
+      }
+
+body{
+    background-image: url('../src/img/error/stars.png');
+}
+
+
+  
