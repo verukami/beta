@@ -272,14 +272,9 @@ letter-spacing: 0.1rem;
 }
 
 .hero-image{
-
-    height: 100%;
-    width: 100%;
-    background-size: cover;
-    background-color: #1d1c30;
-    background-position: center;
-    background-repeat: no-repeat;
-
+  z-index: 2;
+  align-items: center;
+  justify-content: center;
 }
 
 /* End Header */
