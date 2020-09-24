@@ -370,13 +370,40 @@ letter-spacing: 0.1rem;
 
 /* End Style2 */
 
-
 .block-image{
-  width: 100%;
-  width: 1200px;
+  padding: 5rem 0 5rem 25rem;
   align-items: center;
   justify-content: center;
-  margin: 15rem auto 0 0;
+  margin: 0 auto;
+
+}
+
+.work-columns{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin: 10rem 0rem 10rem;
+}
+
+.work-column{
+  flex: 1;
+
+  &:first-child { margin-left: 0; }
+  &:last-child { margin-right: 0; }
+}
+
+.columns{
+  display:flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.column{
+  width: 100%;
+  flex: 1;
+
+  &:first-child { margin-left: 0; }
+  &:last-child { margin-right: 0; }
 }
 
 /* Footer */

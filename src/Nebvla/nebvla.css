@@ -359,13 +359,19 @@ letter-spacing: 0.1rem;
     max-width: 1000px;
   }
   
-.block-image{
-  padding: 5rem 0 5rem 25rem;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-
-}
+  .work-columns{
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 5rem 16rem 8rem;
+  }
+  
+  .work-column{
+    flex: 1;
+  
+    &:first-child { margin-left: 0; }
+    &:last-child { margin-right: 0; }
+  }
 
 /* End Style2 */
 
