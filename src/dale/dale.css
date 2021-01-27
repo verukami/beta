@@ -75,7 +75,7 @@ body {
   
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #0B0A13;
+  background: #1c1c1c;
   color: #ffffff;
 }
 
@@ -260,7 +260,7 @@ letter-spacing: 0.1rem;
 }
 
 .block-hero-content {
-  background-color: #0090D9;
+  background-color: #E82A9C;
   width: 100%;
   height: 100%;
   text-align: left;
@@ -336,7 +336,7 @@ letter-spacing: 0.1rem;
     padding: 10rem 90rem 10rem 14rem;
 
 
-    background-color: #0090D9;
+    background-color: #E82A9C;
   }
   
 
