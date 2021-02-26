@@ -444,7 +444,7 @@ nav a {
 .block-image--left {
   justify-content: center;
   align-items: left;
-  margin: 0 0 0 30rem;
+  margin: 0 30rem 0 30rem;
   clear: left;
 }
 
@@ -578,7 +578,7 @@ nav a {
   }
 
   .block-image--left {
-    margin: 0 2rem 0;
+    margin: 0 2rem ;
     justify-content: center;
   }
 
