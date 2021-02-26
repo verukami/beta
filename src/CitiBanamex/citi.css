@@ -332,7 +332,7 @@ letter-spacing: 0.1rem;
 .block-style1 {
     width: 100%;
     height: 100%;
-    padding: 10rem 60rem 10rem 14rem;
+    padding: 10rem 40rem 10rem 14rem;
 
     color: #f6f6f6;
     background-color: #1E538B;
@@ -354,8 +354,9 @@ letter-spacing: 0.1rem;
 /* Style2 no color background */
 .block-style2{
     width: auto;
-    padding: 10rem 0rem 10rem 14rem;
-    max-width: 1000px;
+    padding: 10rem 44rem 10rem 14rem;
+    width: 100%;
+    height: 100%;
   }
   
   .work-columns{
