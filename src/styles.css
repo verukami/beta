@@ -203,11 +203,12 @@ h6 {
   mix-blend-mode: difference;
   right: 0;
   padding: 0 50px;
-  z-index: 999;
+  z-index: 9999;
 }
 
 .side-bar-right {
-  z-index: 2;
+  z-index: 9999;
+  pointer-events: all;
   right: 0;
   width: 90px;
   height: auto;
