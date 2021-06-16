@@ -537,6 +537,19 @@ nav a {
 }
 
 /* End footer */
+@media screen and (max-width: 600px) {
+  .top-bar a, .topnav-right {
+    float: none;
+    display: block;
+  }
+
+  .topnav-centered a {
+    position: relative;
+    top: 0;
+    left: 0;
+    transform: none;
+  }
+}
 
 @media (max-width: 1024px) {
   .top-menu,
