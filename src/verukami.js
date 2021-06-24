@@ -5,3 +5,4 @@ console.log('VERUKAMI.COM');
 
 // Initizaling AOS
 AOS.init();
+
