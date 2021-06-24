@@ -145,8 +145,14 @@ body {
   font-size: 2.1rem;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #1c1c1c;
+  background: #1F2561;
   color: #ffffff;
+  animation: fadebackground 6s infinite;
+}
+
+@keyframes fadebackground {
+  from {background-color: #1F2561;}
+  to {background-color: #1c1c1c;}
 }
 
 p {
@@ -373,10 +379,31 @@ nav a:hover{
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-image: url(img/Home/background1.png);
-  background-color: #1d1c30;
-  background-position: center;
-  background-repeat: no-repeat;
+  background-color: #1F2561; 
+  display: flex;
+  justify-content: space-around;
+}
+
+.text-left {
+  text-align: left;
+  font-family: "Muli", sans-serif;
+  font-size: 9.6vh;
+  font-weight: bold;
+  padding-top: 360px;
+  padding-left: 280px;
+}
+
+.img-center{
+padding-top: 240px;
+}
+
+.text-right {
+  text-align: right;
+  font-family: "Muli", sans-serif;
+  font-size: 9.6vh;
+  font-weight: bold;
+  padding-top: 460px;
+  padding-right: 280px;
 }
 
 .block-hero-wrapper {
@@ -389,26 +416,6 @@ nav a:hover{
   height: 100%;
 }
 
-.hero-lead {
-  -webkit-animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-  animation: fade-in 1.2s cubic-bezier(0.39, 0.575, 0.565, 1) both;
-}
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-}
 /* End Header */
 
 /* About */
