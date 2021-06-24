@@ -201,10 +201,8 @@ h6 {
   align-items: center;
   mix-blend-mode: difference;
   right: 0;
-<<<<<<< HEAD
   padding: 0 150px;
   z-index: 999;
-  cursor: pointer;
 }
 
 .topnav-centered a {
@@ -213,25 +211,11 @@ h6 {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  cursor: pointer;
 }
-
 
 .topnav-right {
   float: right;
-=======
-  padding: 0 50px;
-  z-index: 9999;
->>>>>>> 0b821cda5c7ae23be1b4f1623919081a8447b0d2
-}
-
-.side-bar-right {
-  z-index: 9999;
-  pointer-events: all;
-  right: 0;
-  width: 90px;
-  height: auto;
-  align-items: center;
-  position: fixed;
 }
 
 nav a {
@@ -246,18 +230,33 @@ nav a {
   font-weight: SemiBold;
 }
 
-
-.right-menu a {
-  padding: 20px 0;
-  margin-left: 50px;
+nav a:hover{
+  color: #75F7FF;
 }
 
-.side-bar-right {
-  margin: 90px auto;
+.bottom-bar{
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  height: 95px;
+  width: 100%;
+  align-items: center;
+  z-index: 999;
+  left: 40%;
+}
 
-  display: grid;
-  grid-template-rows: 60px auto 390px;
-  mix-blend-mode: difference;
+.bottom-bar a{
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 32px 32px;
+  font-family: "Muli", sans-serif;
+  text-decoration: none;
+  font-size: 1.6rem;
+  letter-spacing: 0.011em;
+  font-weight: SemiBold;
+  cursor: pointer;
 }
 
 .right-menu {
@@ -276,7 +275,7 @@ nav a {
 /*GREEN*/
 .b-green,
 .b-green:before {
-  background: #fffff;
+  background: #ffffff;
   background: -moz-linear-gradient(
     45deg,
     rgba(73, 155, 234, 1) 0%,
