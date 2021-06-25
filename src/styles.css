@@ -191,8 +191,8 @@ h5 {
 }
 
 h6 {
-  font-size: 2.4rem;
-  font-family: "Cormorant", serif;
+  font-size: 1.8rem;
+  font-family: "Muli", sans-serif;
 }
 
 /* End Font Style */
@@ -256,7 +256,7 @@ nav a:hover{
   display: block;
   color: white;
   text-align: center;
-  padding: 32px 42px;
+  padding: 22px 42px;
   font-family: "Muli", sans-serif;
   text-decoration: none;
   font-size: 1.rem;
@@ -359,49 +359,6 @@ nav a:hover{
 /* End Menu */
 
 /* Header */
-
-
-@keyframes move-clouds-back {
-  from {background-position:0 0;}
-  to {background-position:10000px 0;}
-}
-@-webkit-keyframes move-clouds-back {
-  from {background-position:0 0;}
-  to {background-position:10000px 0;}
-}
-@-moz-keyframes move-clouds-back {
-  from {background-position:0 0;}
-  to {background-position:10000px 0;}
-}
-@-ms-keyframes move-clouds-back {
-  from {background-position: 0;}
-  to {background-position:10000px 0;}
-}
-
-.clouds {
-position:absolute;
-top:0;
-left:0;
-right:0;
-bottom:0;
-width:100%;
-height:100%;
-display:block;
-}
-
-
-
-.clouds{
-  background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
-  z-index:3;
-
--moz-animation:move-clouds-back 200s linear infinite;
--ms-animation:move-clouds-back 200s linear infinite;
--o-animation:move-clouds-back 200s linear infinite;
--webkit-animation:move-clouds-back 200s linear infinite;
-animation:move-clouds-back 200s linear infinite;
-}
-
 .hero-lead {
   padding: 27rem;
   width: 100%;
@@ -429,20 +386,22 @@ animation:move-clouds-back 200s linear infinite;
   text-align: left;
   font-family: "Muli", sans-serif;
   font-size: 9.6vh;
-  font-weight: bold;
+  font-weight: 300;
   padding-top: 360px;
   padding-left: 280px;
 }
 
 .img-center{
-padding-top: 240px;
+padding-top: 140px;
+max-width: 100%;
+height: auto;
 }
 
 .text-right {
   text-align: right;
   font-family: "Muli", sans-serif;
   font-size: 9.6vh;
-  font-weight: bold;
+  font-weight: 300;
   padding-top: 460px;
   padding-right: 280px;
 }
@@ -493,29 +452,21 @@ padding-top: 240px;
   text-decoration: none;
 }
 
-.block--work {
-  display: flex;
-  flex-direction: row;
-  justify-content: 0 0 14rem 0;
-}
-
 .block-image{
   float: left;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+  align-self: center;
 }
 
-
 .block-image--left {
-  justify-content: center;
-  align-items: left;
-  margin: 0 30rem 0 30rem;
-  clear: left;
+  flex: 50%;
+  padding: 0 0 0 15%;
 }
 
 .block-image--right {
-  float: right;
-  align-items: right;
-  justify-content: right;
-  margin: 0 10% 0 20%;
+  flex: 50%;
 }
 
 .block-float-title,
@@ -587,21 +538,39 @@ padding-top: 240px;
 @media screen and (max-width: 600px) {
   .top-bar a, .topnav-right {
     float: none;
-    display: block;
+    display: none;
   }
 
-  .topnav-centered a {
-    position: relative;
-    top: 0;
-    left: 0;
-    transform: none;
+  .img-center{
+    padding-top: 5%;
   }
-}
+
+  .text-left {
+    float: center;
+    display: none;
+  }
+  
+  .text-right {
+    float: center;
+    display: none;
+
+  }
 
 @media (max-width: 1024px) {
   .top-menu,
   .side-bar-right {
     display: none;
+  }
+
+  .bottom-bar a{
+    float: center;
+    display: block;
+    color: white;
+    padding: 6px 4px;
+    font-family: "Muli", sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+    letter-spacing: 0.011em;
   }
 
   .hero-lead {
