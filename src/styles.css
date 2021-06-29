@@ -236,13 +236,13 @@ nav a:hover{
 }
 
 .bottom-bar a:hover{
-  color: #fe3ed4;
+  color: #47D3FF;
 }
 
 .bottom-bar{
   float: none;
   position: absolute;
-  top: 90%;
+  top: 94%;
   left: 50%;
   transform: translate(-50%, -50%);
   align-items: center;
@@ -258,7 +258,7 @@ nav a:hover{
   padding: 20px 42px;
   font-family: "Muli", sans-serif;
   text-decoration: none;
-  font-size: 1.rem;
+  font-size: 14px;
   letter-spacing: 0.011em;
   font-weight: SemiBold;
   cursor: pointer;
@@ -391,7 +391,7 @@ nav a:hover{
 }
 
 .img-center{
-padding-top: 140px;
+padding-top: 200px;
 max-width: 100%;
 height: auto;
 }
