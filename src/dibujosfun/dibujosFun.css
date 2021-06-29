@@ -194,17 +194,19 @@ h6 {
 
 /* Menu */
 .top-bar {
-  position: fixed;
-  top: 0;
-  height: 95px;
-  width: 100%;
-  left: 0;
-  align-items: center;
-  mix-blend-mode: difference;
-  right: 0;
-  padding: 0 150px;
-  z-index: 999;
-}
+    position: fixed;
+      top: 0;
+      display: flex;
+      height: 95px;
+      width: 100%;
+      left: 0;
+      align-items: center;
+      mix-blend-mode: difference;
+      right: 0;
+      padding: 0 50px;
+      z-index: 999;
+  
+  }
 
 .topnav-centered a {
   float: none;
