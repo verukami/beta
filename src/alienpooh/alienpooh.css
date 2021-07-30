@@ -260,7 +260,7 @@ letter-spacing: 0.1rem;
 }
 
 .block-hero-content {
-  background-color: #E82A9C;
+  background-color: #3642AC;
   width: 100%;
   height: 100%;
   text-align: left;
@@ -336,7 +336,7 @@ letter-spacing: 0.1rem;
     padding: 10rem 60rem 10rem 14rem;
 
 
-    background-color: #E82A9C;
+    background-color: #1c1c1c;
   }
   
 
@@ -355,9 +355,10 @@ letter-spacing: 0.1rem;
 /* Style2 no color background */
 .block-style2{
     width: auto;
-    padding: 10rem 44rem 10rem 14rem;
+    padding: 10rem 10rem 10rem 20rem;
     width: 100%;
     height: 100%;
+    background-color: #ffffff;
   }
   
   .work-columns{

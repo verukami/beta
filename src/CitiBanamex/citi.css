@@ -285,7 +285,7 @@ letter-spacing: 0.1rem;
   display: flex;
   flex-direction: row;
   width: 100%;
-  padding: 12rem 14rem 8rem 14rem;
+  padding: 20rem 30rem 10rem 30rem;
   align-items: center;
   justify-content: left;
   margin: 0 auto;
@@ -293,7 +293,7 @@ letter-spacing: 0.1rem;
 
 .block-review {
   display: grid;
-  grid-template-columns: 13rem auto auto auto auto 13rem;
+  grid-template-columns: 28rem auto auto auto auto 30rem;
   grid-column-gap: 2.0rem;
 
   margin: 0 0 12rem 0;
@@ -330,14 +330,56 @@ letter-spacing: 0.1rem;
 
 /* Style1 blue background*/
 .block-style1 {
+  width: auto;
     width: 100%;
     height: 100%;
-    padding: 10rem 40rem 10rem 14rem;
+    padding: 10rem 40rem 10rem 30rem;
 
     color: #f6f6f6;
     background-color: #1E538B;
   }
   
+  .content-2 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .imgBox {
+    position:relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .imgBox img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .contentBox{
+    position: relative;
+    padding: 20px 60px 20px 100px;
+    right: 25px;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .contentBox::before{
+    content: '';
+    position: absolute;
+    top: -50px;
+    bottom: -50px;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
 
   .content-title{
     line-height: 12rem;
@@ -354,7 +396,7 @@ letter-spacing: 0.1rem;
 /* Style2 no color background */
 .block-style2{
     width: auto;
-    padding: 10rem 44rem 10rem 14rem;
+    padding: 10rem 40rem 10rem 30rem;
     width: 100%;
     height: 100%;
   }
