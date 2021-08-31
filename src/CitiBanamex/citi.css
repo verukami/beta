@@ -83,7 +83,7 @@ p {
   font-family: 'Muli', sans-serif;
   line-height: 1.6em;
   letter-spacing: .04em;
-  font-size: 2rem;
+  font-size: 1.8rem;
 }
 
 h1 {
@@ -293,10 +293,30 @@ letter-spacing: 0.1rem;
 
 .block-review {
   display: grid;
-  grid-template-columns: 28rem auto auto auto auto 30rem;
+  grid-template-columns: 28rem auto auto auto auto 28rem;
   grid-column-gap: 2.0rem;
 
   margin: 0 0 12rem 0;
+}
+
+.block-define {
+  display: grid;
+  grid-template-columns: 0 34% 34% 34% 0;
+  grid-column-gap: 4.0rem;
+
+}
+
+.block-parent {
+  display: flex;
+}
+
+.item {
+  width: 50%;
+  padding: 18rem 28rem 18rem 30rem;
+  background: #1E538B;
+  color: floralwhite;
+  min-height: 500px;
+
 }
 
 .column1 {
@@ -317,7 +337,7 @@ letter-spacing: 0.1rem;
 
 .column-title{
   font-weight: 800;
-  font-size: 2.2rem:
+  font-size: 2.2rem;
 }
 
 .column-content{
@@ -348,7 +368,7 @@ letter-spacing: 0.1rem;
   }
   
   .imgBox {
-    position:relative;
+    position:absolute;
     width: 100%;
     height: 100%;
   }
@@ -363,12 +383,11 @@ letter-spacing: 0.1rem;
   .contentBox{
     position: relative;
     padding: 20px 60px 20px 100px;
-    right: 25px;
     width: 500px;
     height: 400px;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: left;
+    justify-content: left;
   }
   
   .contentBox::before{
@@ -400,21 +419,14 @@ letter-spacing: 0.1rem;
     width: 100%;
     height: 100%;
   }
-  
-  .work-columns{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 5rem 16rem 8rem;
-  }
-  
-  .work-column{
-    flex: 1;
-  
-    &:first-child { margin-left: 0; }
-    &:last-child { margin-right: 0; }
-  }
 
+  .center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
 /* End Style2 */
 
 
@@ -502,6 +514,15 @@ letter-spacing: 0.1rem;
 /* End footer */
 
 @media (max-width: 767px){
+  .block-parent {
+    flex-direction: column-reverse; 
+  }
+
+  .item {
+    width: auto;
+    padding: 2em;
+  }
+
   .block-content {
     flex-wrap: wrap;
     flex-direction: column;
@@ -542,6 +563,12 @@ letter-spacing: 0.1rem;
     flex-direction: column;
     padding: 0 2rem 0 4.5rem;
   
+  }
+
+  .block-define {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 4rem;
   }
 
   .block-style1 {

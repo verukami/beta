@@ -365,9 +365,11 @@ letter-spacing: 0.1rem;
     flex-flow: row wrap;
     justify-content: center;
     margin: 5rem 16rem 8rem;
+    max-width: 100%;
   }
   
   .work-column{
+    position: inherit;
     flex: 1;
   
     &:first-child { margin-left: 0; }
