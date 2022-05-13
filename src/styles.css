@@ -397,12 +397,14 @@ height: auto;
 }
 
 .text-right {
-  text-align: right;
+  text-align: left;
   font-family: "Muli", sans-serif;
-  font-size: 9.6vh;
+  font-size: 3vh;
+  line-height: 4rem;
   font-weight: 300;
-  padding-top: 460px;
-  padding-right: 280px;
+  padding-top: 380px;
+  padding-left: 100px;
+  padding-right: 300px;
 }
 
 .block-hero-wrapper {
