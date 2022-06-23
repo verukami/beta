@@ -210,7 +210,7 @@ nav a{
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#1abc9c', GradientType=1 );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-  }
+   }
 
    /*BLUE*/
    .b-blue, .b-blue:before {
@@ -318,7 +318,7 @@ letter-spacing: 0.1rem;
 
 .column-title{
   font-weight: 800;
-  font-size: 2.2rem:
+  font-size: 2.2rem;
 }
 
 .column-content{
@@ -334,8 +334,10 @@ letter-spacing: 0.1rem;
 .block-style1 {
     width: 100%;
     height: 100%;
-    padding: 10rem 90rem 10rem 14rem;
-
+    padding: 10rem 84rem 10rem 14rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 
     background-color: #15181C;
   }
@@ -356,24 +358,19 @@ letter-spacing: 0.1rem;
 /* Style2 no color background */
 .block-style2{
     width: auto;
-    padding: 10rem 14rem 10rem 14rem;
-    max-width: 1000px;
+    padding: 10rem 2rem 10rem 14rem;
   }
   
   .work-columns{
-    display:flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: 5rem 16rem 8rem;
-    max-width: 100%;
-  }
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: wrap;
+    }
   
   .work-column{
-    position: inherit;
-    flex: 1;
-  
-    &:first-child { margin-left: 0; }
-    &:last-child { margin-right: 0; }
+    padding: 4%;
+    width: auto;
   }
 
 /* End Style2 */

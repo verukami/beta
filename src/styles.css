@@ -376,9 +376,14 @@ nav a:hover{
   height: 100%;
   width: 100%;
   background-size: cover;
-  background-color: #1F2561; 
   display: flex;
-  justify-content: space-around;
+}
+
+.bg-gradient {
+  height: 120px;
+  width: 100%;
+  z-index: -4;
+  
 }
 
 .text-left {
@@ -388,6 +393,7 @@ nav a:hover{
   font-weight: 300;
   padding-top: 360px;
   padding-left: 280px;
+  color: #fe3ed4;
 }
 
 .img-center{
@@ -399,6 +405,7 @@ height: auto;
 .text-right {
   text-align: left;
   font-family: "Muli", sans-serif;
+  color: #cc65a3;
   font-size: 3vh;
   line-height: 4rem;
   font-weight: 300;
@@ -416,6 +423,10 @@ height: auto;
   width: 100%;
   height: 100%;
 }
+
+
+
+
 
 /* End Header */
 
@@ -599,24 +610,53 @@ height: auto;
 
 /* End footer */
 @media screen and (max-width: 800px) {
+
+  .bottom-bar{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    mix-blend-mode: difference;
+  }
+
+
+  .hero-image {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-color: #F5D0D8; 
+    display: flex;
+    flex-direction: column;
+  } 
+
   .top-bar a, .topnav-right {
     float: none;
     display: none;
   }
 
   .img-center{
-    padding-top: 5%;
     display: none;
   }
 
   .text-left {
-    float: center;
-    display: none;
-    width: 100%;
+    text-align: left;
+    font-family: "Muli", sans-serif;
+    font-size: 9.6vh;
+    font-weight: 300;
+    padding-top: 0px;
+    padding-left: 20px;
+    color: #fe3ed4;
   }
   
   .text-right {
-    float: center;
+    text-align: left;
+  font-family: "Muli", sans-serif;
+  color: #1d1c30;
+  font-size: 3vh;
+  line-height: 4rem;
+  font-weight: 300;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 40px;
   }
 
   .card{
