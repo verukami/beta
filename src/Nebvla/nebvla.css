@@ -135,10 +135,7 @@ h6 {
     right: 0;
     padding: 0 50px;
     z-index: 999;
-
 }
-
-
 
 .side-bar-right{
   z-index: 2;
@@ -193,6 +190,7 @@ nav a{
 .rot-135:hover {
   filter: hue-rotate(135deg);
 }
+
 
 
 
