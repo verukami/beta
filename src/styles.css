@@ -606,16 +606,17 @@ height: auto;
 
   .img-center{
     padding-top: 5%;
+    display: none;
   }
 
   .text-left {
     float: center;
     display: none;
+    width: 100%;
   }
   
   .text-right {
     float: center;
-    display: none;
   }
 
   .card{
