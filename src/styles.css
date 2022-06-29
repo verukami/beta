@@ -400,17 +400,18 @@ nav a:hover{
 .img-center{
 padding-top: 10%;
 height: auto;
+padding-left: 20%;
 }
 
 .text-right {
   text-align: left;
   font-family: "Muli", sans-serif;
   color: #cc65a3;
-  font-size: 3rem;
+  font-size: 3.2rem;
   line-height: 4.2rem;
   padding-top: 20%;
-  padding-left: 6%;
-  padding-right: 20rem;
+  padding-left: 8%;
+  padding-right: 20%;
 }
 
 .block-hero-wrapper {
@@ -610,6 +611,10 @@ height: auto;
 /* End footer */
 @media screen and (max-width: 800px) {
 
+  .a {
+    font-size: 2vh;
+  }
+
   .bottom-bar{
     display:flex;
     align-items: center;
@@ -633,17 +638,16 @@ height: auto;
   }
 
   .img-center{
-    display: none;
+    display: flex;
+    height: 50%;
+    padding-left: 26%;
+    padding-top: 6%;
+    padding-bottom: 0%;
+    align-content: center;
   }
 
   .text-left {
-    text-align: left;
-    font-family: "Muli", sans-serif;
-    font-size: 9.6vh;
-    font-weight: 300;
-    padding-top: 0px;
-    padding-left: 20px;
-    color: #fe3ed4;
+    display:none;
   }
   
   .text-right {
@@ -651,11 +655,12 @@ height: auto;
   font-family: "Muli", sans-serif;
   color: #1d1c30;
   font-size: 3vh;
-  line-height: 4rem;
+  line-height: 3.2rem;
   font-weight: 300;
   padding-top: 0px;
-  padding-left: 20px;
-  padding-right: 40px;
+  padding-left: 8%;
+  padding-right: 8%;
+  padding-bottom: 20%;
   }
 
   .card{
