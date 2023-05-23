@@ -389,6 +389,10 @@ nav a:hover{
   
 }
 
+.giphy-embed{
+  z-index: 8;
+}
+
 .text-left {
   text-align: left;
   font-family: "Muli", sans-serif;
@@ -453,7 +457,7 @@ padding-left: 20%;
 .block-meta {
   width: auto;
   padding: auto;
-  max-width: 800px;
+  max-width: 600px;
 }
 
 /* End About */
