@@ -176,7 +176,7 @@ h1 {
 
 h1:nth-child(2) {
   color: #47D3FF;
-  animation: glitch2 2.5s infinite;
+  animation: glitch2 3.5s infinite;
 }
 
 h1:nth-child(3) {
@@ -622,6 +622,7 @@ padding-left: 20%;
 }
 
 
+
 /* End Header */
 
 /* About */
@@ -712,6 +713,45 @@ padding-left: 20%;
   font-family: "Muli", sans-serif;
 }
 
+/*======= Button =======*/
+.btn {
+  padding: 20px 100px;
+  margin:20px 8px;
+  text-align: center;
+  position:relative;
+  text-decoration: none;
+  display:inline-block;
+}
+
+.btn::before {
+  content: '';
+  position:static;
+  top: 100%;
+  left: 50%;
+  right: 80%;
+  width: 80%;
+  height: 2px;
+  background: #f2f2f2;
+  display: block;
+  -webkit-transform-origin: right top;
+  -ms-transform-origin: right top;
+  transform-origin: right top;
+  -webkit-transform: scale(0, 1);
+  -ms-transform: scale(0, 1);
+  transform: scale(0, 1);
+  -webkit-transition: transform 0.4s cubic-bezier(1, 0, 0, 1);
+  transition: transform 0.4s cubic-bezier(1, 0, 0, 1)
+}
+
+
+.btn:hover::before {
+  -webkit-transform-origin: left top;
+  -ms-transform-origin: left top;
+  transform-origin: left top;
+  -webkit-transform: scale(1, 1);
+  -ms-transform: scale(1, 1);
+  transform: scale(1, 1)
+}
 
 
 *{margin:0; padding:0; box-sizing: border-box;}

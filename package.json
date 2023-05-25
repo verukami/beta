@@ -1,9 +1,8 @@
 {
   "name": "verukami-beta",
-  "version": "1.0.0",
+  "version": "1.5.0",
   "main": "index.js",
   "repository": "git@github.com:verukami/beta.git",
-  "author": "Angel Baez <angel@uptrending.com>",
   "license": "MIT",
   "scripts": {
     "dev": "parcel src/index.html",
