@@ -713,6 +713,7 @@ padding-left: 20%;
   font-family: "Muli", sans-serif;
 }
 
+
 /*======= Button =======*/
 .btn {
   padding: 20px 100px;
@@ -725,11 +726,11 @@ padding-left: 20%;
 
 .btn::before {
   content: '';
-  position:static;
-  top: 100%;
-  left: 50%;
-  right: 80%;
-  width: 80%;
+  position:absolute;
+  bottom: 20%;
+  left: 40%;
+  right: 20%;
+  width: 20%;
   height: 2px;
   background: #f2f2f2;
   display: block;
