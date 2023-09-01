@@ -652,7 +652,7 @@ padding-left: 20%;
 
 .ImgBox {
   position:relative;
-  width: 500px;
+  width: 600px;
   height: 400px;
 }
 
@@ -667,13 +667,13 @@ padding-left: 20%;
 
 .contentBox{
   position: relative;
-  padding: 20px 60px 20px 20px;
-  right: 25px;
-  width: 500px;
+  padding: 20px 20px 20px 20px;
+  width: 600px;
   height: 400px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
+  left: 4%;
 }
 
 .contentBox::before{
