@@ -273,6 +273,9 @@ letter-spacing: 0.1rem;
   z-index: 2;
   align-items: center;
   justify-content: center;
+  background-image: url('https://github.com/verukami/beta/blob/master/src/img/alienpooh/cover.png?raw=true');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* End Header */
@@ -346,6 +349,10 @@ letter-spacing: 0.1rem;
 .block--intro{
   display: flex;
   flex-direction: row;
+}
+
+.block-parent {
+  display: flex;
 }
 
 /* End Style1 */
