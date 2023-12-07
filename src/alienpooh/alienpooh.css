@@ -476,6 +476,15 @@ letter-spacing: 0.1rem;
 /* End footer */
 
 @media (max-width: 767px){
+  .block-parent {
+    flex-direction: column-reverse; 
+  }
+
+  .item {
+    width: auto;
+    padding: 2em;
+  }
+
   .block-content {
     flex-wrap: wrap;
     flex-direction: column;
@@ -516,6 +525,12 @@ letter-spacing: 0.1rem;
     flex-direction: column;
     padding: 0 2rem 0 4.5rem;
   
+  }
+
+  .block-define {
+    display: flex;
+    flex-direction: column;
+    padding: 0 2rem 4rem;
   }
 
   .block-style1 {
