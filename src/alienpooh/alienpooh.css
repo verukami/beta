@@ -477,7 +477,7 @@ letter-spacing: 0.1rem;
 
 @media (max-width: 767px){
   .block-parent {
-    flex-direction: column-reverse; 
+    flex-direction: column; 
   }
 
   .item {
@@ -501,6 +501,10 @@ letter-spacing: 0.1rem;
   font-size: 4.2rem;
   letter-spacing: .01em;
   padding: 4rem 0 0 0;
+}
+
+.world-preview {
+  width: 20%;
 }
 
 .hero-image{
