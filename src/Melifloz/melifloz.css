@@ -353,6 +353,24 @@ letter-spacing: 0.1rem;
   flex-direction: row;
 }
 
+.item-last{
+  width: 100%;
+  height: 100%;
+  padding: 0rem 10rem 10rem 14rem;
+}
+
+
+
+.block-parent {
+  display: flex;
+}
+
+.item{
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10rem;
+}
 /* End Style1 */
 
 /* Style2 no color background */
@@ -525,7 +543,9 @@ letter-spacing: 0.1rem;
     padding: 6rem 0 3rem 0;
   }
   
-  
+  .block-parent {
+    flex-direction: column;
+  }
 
   .lead {
     font-size: 2.8rem;
