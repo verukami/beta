@@ -294,8 +294,8 @@ letter-spacing: 0.1rem;
 .block-review {
   display: grid;
   grid-template-columns: 28rem auto auto auto auto 28rem;
-  grid-column-gap: 2.0rem;
-
+  grid-column-gap: 2rem;
+  align-items: center;
   margin: 0 0 12rem 0;
 }
 
