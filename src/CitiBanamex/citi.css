@@ -79,30 +79,57 @@ body {
   color: #0B0A13;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: var(--font-primary);
+/* Paragraphs */
+p {
+  font-family: 'Muli', sans-serif;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  letter-spacing: 0.04em;
+}
+
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   margin-bottom: calc(var(--spacing-unit) * 2);
 }
 
+/* Individual heading styles */
+
 h1 {
-  font-size: var(--font-size-heading-lg);
-  font-weight: bold;
+  font-family: 'Muli', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
 }
 
 h2 {
-  font-size: 3.6rem;
-  font-family: var(--font-secondary);
+  font-family: 'Cormorant', serif;
+  font-size: 9.6rem;
 }
 
 h3 {
-  font-size: 2.4rem;
+  font-family: 'Muli', sans-serif;
+  font-size: 6.4rem;
+  font-weight: 700;
 }
 
-p {
-  font-size: var(--font-size-base);
-  line-height: 1.8;
-  color: var(--primary-color);
-  letter-spacing: 0.02em;
+h4 {
+  font-family: 'Cormorant', serif;
+  font-size: 4.8rem;
+}
+
+h5 {
+  font-family: 'Muli', sans-serif;
+  font-size: 3.6rem;
+  font-weight: 500;
+}
+
+h6 {
+  font-family: 'Cormorant', serif;
+  font-size: 2.4rem;
 }
 /* End Font Style */
 
