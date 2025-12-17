@@ -93,7 +93,7 @@ body {
 
 /* -----HEADER---- */
 .top-bar {
-  position: sticky;
+  position: fixed;
     top: 0;
     display: flex;
     height: 95px;
@@ -104,18 +104,54 @@ body {
     right: 0;
     padding: 0 50px;
     z-index: 999;
-
 }
 
+@keyframes slideDown {
+	from {
+		transform: translateY(-80px);
+		opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 
-
-.side-bar-right{
-  z-index: 2;
-  right: 0;
-  width: 90px;
-  height: 1024px;
+.top-bar nav {
+  display: flex;
+  justify-content: space-between;
   align-items: center;
+  padding: 1rem 2rem;
+}
+
+.top-bar a.back {
+  color: var(--primary);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.top-bar a.logo img {
+  height: 28px;
+}
+
+/* --------------------------------
+   SIDEBAR
+----------------------------------*/
+.side-bar-left {
   position: fixed;
+  left: 1rem;
+  top: 40%;
+  z-index: 99;
+}
+
+.side-bar-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.side-bar-right li {
+  margin-bottom: 1rem;
+  transition: transform 0.3s ease;
 }
 
 nav a{
