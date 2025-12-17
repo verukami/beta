@@ -154,46 +154,9 @@ body {
   transition: transform 0.3s ease;
 }
 
-nav a{
-  color: white;
-  text-decoration: none;
-  font-family: 'Muli', sans-serif;
-  font-size: 1.8rem;
-  
+.side-bar-right li:hover {
+  transform: translateY(-4px);
 }
-
-.top-menu a {
-  padding: 10px 0;
-  margin-left: 50px;
-  letter-spacing: 0.5px;
-  cursor: pointer;
-}
-
-.right-menu a {
-  padding: 20px 0;
-  margin-left: 50px;
-}
-
-.side-bar-right {
-  margin: 90px auto;
-  
-  display: grid;
-  grid-template-rows: 60px auto 390px;
-  mix-blend-mode: difference;
-
-}
-
-.right-menu{
-  grid-row: 2;
-  align-self: center;
-
-}
-
-.top-menu-right {
-  margin-left: auto;
-}
-
-
 
 .rot-135:hover {
   filter: hue-rotate(135deg);
