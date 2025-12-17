@@ -158,14 +158,6 @@ body {
   transform: translateY(-4px);
 }
 
-.rot-135:hover {
-  filter: hue-rotate(135deg);
-}
-
-
-
-
-
   /*GREEN*/
   .b-green, .b-green:before {
     background: #fffff;
@@ -204,13 +196,33 @@ body {
 
 
 /* Header */
-.hero-title{
-  font-family: 'Muli', sans-serif;
-  font-size: 14.4rem;
-
-  font-weight: 500;
+.block--hero {
+  position: relative;
+  background: linear-gradient(to bottom, #f8f9fb, #fff);
+  overflow: hidden;
+  text-align: center;
+  padding: 6rem 1rem 3rem;
+}
+	
+.hero-title {
+  font-family: var(--font-title);
+  font-size: 3rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  animation: fadeUp 1s ease-out forwards;
 }
 
+.block--hero h6 {
+  font-weight: 400;
+  color: #444;
+  margin-bottom: 2rem;
+}
+
+.hero-image img {
+  max-width: 100%;
+  border-radius: 10px;
+  animation: fadeIn 1.4s ease-in forwards;
+}
 .subtitle {
 text-align: left;
 letter-spacing: 0.1rem;
