@@ -223,6 +223,77 @@ body {
   border-radius: 10px;
   animation: fadeIn 1.4s ease-in forwards;
 }
+
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* --------------------------------
+   BLOCKS GENERAL
+----------------------------------*/
+.block {
+  padding: 5rem 1rem;
+}
+
+.block-wrapper {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.block--intro,
+.block--content {
+  background-color: var(--bg);
+}
+
+.block h2,
+.block h3,
+.block h4 {
+  font-family: var(--font-title);
+  color: var(--text);
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+ul li::before {
+  content: "– ";
+  color: var(--primary);
+}
+
+/* --------------------------------
+   TWO-COLUMN BLOCKS
+----------------------------------*/
+.block-parent {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  align-items: center;
+}
+
+.block-parent .item.last p {
+  font-size: 1rem;
+}
+
+/* --------------------------------
+   PARALLAX BACKGROUNDS
+----------------------------------*/
+.item[style*="background"] {
+  min-height: 400px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  border-radius: 10px;
+}
+
 .subtitle {
 text-align: left;
 letter-spacing: 0.1rem;
